@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+// This gets rid of all the default browser settings
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    background-image: url(https://www.itl.cat/pngfile/big/13-132496_clock-wallpaper-clock-black-and-white-background.jpg);
+}
+
+.main {
+    background: #ccc;
+    width: 325px;
+    margin: 100px auto;
+    height: 150px;
+    position: relative;
+    padding: 30px;
+    opacity: 90%;
+}
+
+.badge {
+    width: 105px;
+    background: #e66357;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: -15px;
+    left: 35%;
+}
+
+.clock {
+    background: #EBEBEB;
+    text-align: center;
+    font-size: 50px;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.time {
+    padding-top: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
