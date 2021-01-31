@@ -1,1 +1,1 @@
-# My-First-Javascript-Projects
+# Javascript-Digital-Clock
